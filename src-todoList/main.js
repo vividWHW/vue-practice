@@ -1,10 +1,6 @@
 import Vue from 'vue';
-import { Input, Select, Option } from 'element-ui';
 import App from './App.vue';
-
-Vue.use(Input);
-Vue.use(Select);
-Vue.use(Option);
+import './asset/css/todo.css';
 
 Vue.config.productionTip = false;
 
